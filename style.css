@@ -1,0 +1,139 @@
+.wrapper {
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.one,.two {
+    background:#1f2937;
+    color:#f9faf8;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.one {
+    padding:0px 18px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+.one h4 { margin-right:auto; }
+.one a { 
+    padding:0px 18px; 
+    color:#f9faf8; 
+    text-decoration:none;
+    font-size:12px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* --------------------------------------------- */
+.two {
+    padding:18px;
+    display: flex;
+    gap:12px;
+    justify-content: center;
+}
+.two img {
+    max-width: 350px;
+    margin:36px;
+}
+h1 { font-size:48px; font-family:Arial, Helvetica;}
+.title {
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding:24px;
+}
+.title p { 
+    font-size:12px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom:12px;
+}
+button {
+    background: #3882f6;
+    width:100px;
+    height:30px;
+    border-radius:8px;
+    border-color: white;
+    color:#f9faf8;
+}
+/* ----------------------------------------------- */
+
+.three {
+    display: flex;
+    margin: 24px;
+    flex-direction:column;
+    align-items: center;
+}
+.three img {
+    width: 200px;
+    height:200px;
+    border: 3px solid #3882f6;
+    margin: 0 18px;
+    border-radius:25px;
+}
+.three h2 {
+    width:100%;
+    text-align: center;
+    font-family: arial Bold, sans-serif;
+    color:#1f2937;
+}
+div .content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    text-align: center;
+    
+}
+.content2 p {
+    max-width: 190px; 
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding:0 26px;
+}
+/* ----------------------------------------------- */
+
+.four {
+    display:flex;
+    background-color:#e5e7eb;
+    align-items:center;
+    flex-direction: column;
+    font: 36px Calibri, sans-serif;
+    color:#1f2937;
+    padding:52px 200px;
+
+}
+.four h4 {
+    margin-left:auto;
+}
+/* --------------------------------------------- */
+.five {
+    align-items: center;
+    background-color:#3882f6;
+    max-width: 80%;
+    min-width: 60%;
+    color:#e5e7eb;
+    padding:55px;
+    display: flex;
+    margin:66px auto;
+    border-radius: 12px;
+}
+.five .con5 h3,p {
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.five button {
+    margin-left: auto;
+} 
+/* ------------------------------------------ */
+.six {
+    background-color:#1f2937;
+    color:#ffffff;
+    font-family:'Courier New', Courier, monospace;
+    font-size:12px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    padding:36px;
+}
